@@ -1,0 +1,40 @@
+/*--------------
+    VARIABLES
+--------------*/
+
+:root{
+    /*--------------
+        COLORS   
+    ---------------*/  
+    --clr-base-light: #ffffff;
+    --clr-base-dark: #000000;
+    --clr-primary: #F4B429;
+    --clr-secondary: #49A987;
+    --clr-sponsors: #817D73;
+    --clr-bg-secondary: #FEF7E9;
+    --clr-typo-secondary: #C2C2C2; 
+
+ 
+    /*---------------
+          LAYOUT
+    ----------------*/    
+    /*    Containers    */
+    --width-xxs: 15rem;
+    --width-xs: 20rem;
+    --width-sm: 30rem;
+    --width-md: 45rem;
+    --width-lg: 60rem;
+    --width-xl: 75rem;
+    --width-xxl: 90rem;
+
+    /*    Layout element size    */
+
+
+    /*    Graphics element size    */
+    --btn-hero-abs: 4.1875rem;
+
+    /*---------------
+          SPACING
+    ----------------*/
+    --space-unit: .0625rem;
+}
