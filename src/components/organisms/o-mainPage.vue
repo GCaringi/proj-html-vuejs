@@ -3,6 +3,7 @@
     <about-section/>
     <shop-section/>
     <audiobook-section/>
+    <critics-section/>
   </main>
 </template>
 
@@ -11,6 +12,7 @@
 import aboutSection from '../organisms/o-aboutSection.vue'
 import shopSection from '../organisms/o-shopSection.vue'
 import audiobookSection from '../organisms/o-audiobookSection.vue'
+import criticsSection from '../organisms/o-criticsSection.vue'
 
 export default {
     name: "mainPage",
@@ -18,6 +20,7 @@ export default {
         aboutSection,
         shopSection,
         audiobookSection,
+        criticsSection,
     }
 }
 </script>
