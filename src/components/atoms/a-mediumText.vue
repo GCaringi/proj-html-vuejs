@@ -1,5 +1,5 @@
 <template>
-  <p class = "text-sm">
+  <p>
     {{text}}
   </p>
 </template>

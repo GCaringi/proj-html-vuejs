@@ -15,6 +15,7 @@
             />
             <medium-text
                 text = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus sint ratione magni expedita officia inventore"
+                class = "text-sm"
             />
         </div>
     </div>
