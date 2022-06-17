@@ -1,6 +1,6 @@
 <template>
   <section id = "upcoming" class = "bg-[color:var(--clr-bg-secondary)]">
-        <div class = "w-[var(--width-xxl)] m-auto">
+        <div class = "w-[var(--width-xxl)] m-auto pb-[5rem]">
             <header-section
                 title = "Upcoming Events"
                 subtitle = "Meet the Autor in person"
