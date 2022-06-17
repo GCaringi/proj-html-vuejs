@@ -1,11 +1,12 @@
 <template>
-  <div>
+  <div class="pr-4">
     <little-title
         :text= "title"
         class="text-[color:var(--clr-base-light)] uppercase pb-8 font-bold text-xl"
     />
     <little-text
         :text= "content"
+        class=""
     />
   </div>
 </template>

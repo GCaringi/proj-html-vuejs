@@ -13,7 +13,7 @@
                 class="w-[30%] flex flex-col text-[color:var(--clr-typo-secondary)]"
             />
         </div>
-            <div class="w-[var(--width-xxl)] m-auto text-center text-xs text-[color:var(--clr-typo-secondary)]">
+            <div class="w-[var(--width-xxl)] m-auto text-center text-xs text-[color:var(--clr-typo-secondary)] py-8">
                 &copy; Copyright 2012-2020 | Avada Theme by <span class="text-white">ThemeFusion</span> | All Rights Reserved | Powered by <span class = "text-white" >Wordpress</span>
             </div>
         <image-page
@@ -54,6 +54,7 @@ header{
     background-image: url("@/assets/img/hero-07-2x.jpg"), linear-gradient(0deg, rgba(0,0,0,0.8) 30%, rgba(255,255,255,0) 100%);
     background-blend-mode: color;
     background-size: cover;
+    background-position: top;
 }
 
 </style>
