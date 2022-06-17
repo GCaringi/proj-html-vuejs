@@ -16,7 +16,7 @@
             <box-article
                 class="w-[65%] flex flex-col bg-[color:var(--clr-base-light)] p-8"
             />
-            <div class="w-[30%] flex flex-col">
+            <div class="w-[40%] flex flex-col">
                 <box-article-thumb
                     v-for = "(thumb, index) in thumbs"
                     :key = "index"

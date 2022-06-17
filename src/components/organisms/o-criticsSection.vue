@@ -19,7 +19,7 @@
                 <box-review
                     :title = "reviews[0].title"
                     :content= "reviews[0].content"
-                    class=" p-[2rem] "
+                    class=" p-[2rem] m-boxReview relative"
                 /> 
                 <author-citation
                     :src = "reviews[0].src"
@@ -30,7 +30,7 @@
                 <box-review
                     :title = "reviews[1].title"
                     :content= "reviews[1].content"
-                    class=" p-[2rem]"
+                    class=" p-[2rem] m-boxReview relative"
                 />
                 <author-citation
                     :src = "reviews[1].src"
@@ -84,6 +84,19 @@ export default {
 }
 </script>
 
-<style>
+<style lang = "scss" scoped>
+
+.m-boxReview::after{
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid var(--clr-bg-secondary);
+    bottom: -20px;
+    left: 25px;
+
+}
 
 </style>
