@@ -22,7 +22,7 @@
         />
         <btn-symbol
             elem = "⋀"
-            class= " absolute bottom-0 right-5  py-2 px-7 text-[color:var(--clr-base-light)] bg-zinc-800 rounded-md"
+            class= " fixed bottom-0 right-5  py-2 px-7 text-[color:var(--clr-base-light)] bg-zinc-800 rounded-md"
         />
     </header>
 </template>
@@ -44,7 +44,7 @@ export default {
         footerContacts,
         imagePage,
         btnSymbol,
-    }
+    },
 }
 </script>
 

@@ -2,7 +2,6 @@
     <nav class= "pt-8 relative">
         <ul class = "list-none flex text-white gap-x-8">
             <nav-item
-                @click.prevent="toggleActive()"
                 v-for = "(link, index) in navLinks"
                 :key = "index"
                 :text = "link"
@@ -31,11 +30,6 @@ export default {
     components: {
         navItem,
     },
-    methods: {
-        toggleActive(){
-            this.isActive = !this.isActive;
-        }
-    }
 }
 
 </script>

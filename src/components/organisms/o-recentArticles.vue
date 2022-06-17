@@ -12,11 +12,11 @@
                 class="bg-[color:var(--clr-primary)] py-2 px-7 text-[color:var(--clr-base-light)] font-semibold rounded-md"
             />
         </div>
-        <div class = "flex gap-x-10">
+        <div class = "flex justify-between">
             <box-article
                 class="w-[65%] flex flex-col bg-[color:var(--clr-base-light)] p-8"
             />
-            <div class="w-[40%] flex flex-col">
+            <div class="w-[30%] flex flex-col">
                 <box-article-thumb
                     v-for = "(thumb, index) in thumbs"
                     :key = "index"
