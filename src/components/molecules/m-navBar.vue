@@ -6,7 +6,6 @@
                 :key = "index"
                 :text = "link"
                 class = "a-navItem relative font-semibold"
-                :class = "{'active' : isActive}"
             />
             <li>
                 <i class="fa-solid fa-cart-shopping"></i>
@@ -24,12 +23,11 @@ export default {
     data(){
         return {
             navLinks : ["Home", "About me", "Testimonials", "My blog", "Meetups", "Shop", "Contact Me"],
-            isActive : false,
         }
     },
     components: {
         navItem,
-    },
+    }
 }
 
 </script>

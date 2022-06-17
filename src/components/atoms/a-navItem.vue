@@ -1,5 +1,5 @@
 <template>
-    <li >
+    <li>
         <a href="#"
            class = "no-underline text-inherit" 
         >{{text}}</a>
