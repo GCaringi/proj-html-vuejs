@@ -7,6 +7,7 @@
     <up-coming-events/>
     <newsletter-section/>
     <more-about-section/>
+    <recent-articles/>
   </main>
 </template>
 
@@ -19,6 +20,7 @@ import criticsSection from '../organisms/o-criticsSection.vue'
 import upComingEvents from '../organisms/o-upcomingEvents.vue'
 import newsletterSection from '../organisms/o-newsletterSection.vue'
 import moreAboutSection from '../organisms/o-moreAboutSection.vue'
+import recentArticles from '../organisms/o-recentArticles.vue'
 
 export default {
     name: "mainPage",
@@ -30,6 +32,7 @@ export default {
         upComingEvents,
         newsletterSection,
         moreAboutSection,
+        recentArticles,
     }
 }
 </script>
